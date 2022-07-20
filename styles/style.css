@@ -399,6 +399,7 @@ hr {
 
     body {
         width: 100%;
+        overflow-x: hidden;
     }
 
     header {
@@ -496,6 +497,7 @@ hr {
     main {
         /* display: none; */
         flex-direction: column;
+        width: 100%;
     }
 
     .blogs {
