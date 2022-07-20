@@ -388,18 +388,23 @@ hr {
 
 @media only screen and (max-width:688px) {
 
-    /* #para_1 {
+    #para_1 {
         display: none;
     }
 
     #para_2 {
         display: block;
         text-align: center;
-    } */
+    }
+
+    body {
+        width: 100%;
+    }
+
     header {
         /* width: 400px; */
         width: 100%;
-        background-color: aqua;
+        /* background-color: aqua; */
         height: 600px;
         padding-top: 50px;
         padding-bottom: 50px;
