@@ -1,0 +1,587 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header */
+
+header {
+
+    width: 100%;
+    height: 800px;
+    position: relative;
+    left: 2%;
+    /* background-color: cadetblue; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 90%;
+
+    height: 500px; */
+    width: 90%;
+    height: 646px;
+    color: aliceblue;
+
+    border-radius: 30px;
+    background-color: #161616;
+}
+
+.header_detail {
+    /* width: 50%; */
+    position: absolute;
+    width: 531px;
+    height: 424px;
+    left: 246px;
+    top: 161px;
+    bottom: 111px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main_header img {
+    /* width: 50%; */
+    position: absolute;
+    width: 581px;
+    height: 613px;
+    /* left: 801px; */
+    top: 13.5%;
+    right: 218px;
+    bottom: 111px;
+    /* background-color: #DD0000; */
+
+
+    /* background: url(kisspng-marcelo-vieira-brazil-national-football-team-footb-brazil-5ac0e6b8ef0ed6.png); */
+
+}
+
+.header_detail h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.header_detail p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.header_detail button {
+    width: 187px;
+    height: 56px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    left: -180px;
+
+
+    background-color: #DD0000;
+}
+
+.header_detail button a,
+.header_detail button i {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #FFFFFF;
+}
+
+/* main */
+
+main {
+    width: 100%;
+    /* width: 1600px; */
+    /* height: 1500px; */
+    position: relative;
+    /* left: 2%; */
+    /* background-color: lightgreen; */
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.manu {
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* left: 140px; */
+
+}
+
+.manu div {
+    background-color: #FFFFFF;
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+
+    text-align: center;
+
+    /* position: relative; */
+    /* left: 30px; */
+    /* top: 30px; */
+}
+
+.blogs {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* row-gap: 2px;
+    column-gap: 2px; */
+
+    position: relative;
+    right: -150px;
+}
+
+.blog {
+    width: 400px;
+    height: 400px;
+    border: 2px solid wheat;
+    border-radius: 10px 10px 0px 0px;
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.blog_detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.blog_detail button {
+    /* position: relative; */
+    padding: 0px;
+    margin: 0px;
+    /* left: -100px; */
+    /* top: 20px; */
+    font-weight: 500;
+    font-size: 16px;
+
+    width: 100px;
+    height: 32px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.blog_detail p {
+    position: relative;
+    /* left: 20px; */
+    top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.blog img {
+    width: 400px;
+    height: 175px;
+
+    background: url(Egypt-Senegal-1024x683.jpg);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.manu div h2 {
+    position: relative;
+    top: 50%;
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+}
+
+.time_comment {
+    position: relative;
+    left: -80PX;
+    top: 20px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.time {
+    width: 60px;
+    height: 26px;
+    left: 496px;
+    top: 1142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time i {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 20px;
+    top: 21px;
+}
+
+.time p {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    /* top: 10px; */
+    margin: 0;
+    padding: 0;
+}
+
+.comment {
+    width: 60px;
+    height: 26px;
+    left: 496px;
+    top: 1142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment i {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 20px;
+    top: 21px;
+}
+
+.comment p {
+    position: relative;
+    left: 5px;
+    top: 20px;
+    /* top: 10px; */
+    margin: 0;
+    padding: 0;
+}
+
+
+/* footer */
+
+footer {
+    /* position: relative; */
+    /* left: 2%; */
+    position: relative;
+    top: 100px;
+
+    width: 100%;
+    height: 444px;
+
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.goal h2 {
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+
+hr {
+    color: white;
+    width: 1320px;
+    height: 0px;
+    left: 140px;
+    top: 2330px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 50px;
+}
+
+.footer_elements {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* align-items: center; */
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.footer_elements p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
+
+}
+
+.social_logo {
+    position: relative;
+    top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 100px;
+    /* align-items: center; */
+
+    font-weight: 600;
+    font-size: 40px;
+
+    color: white;
+}
+
+/* view_all */
+
+#view_all {
+
+    display: none;
+
+    /* width: 187px;
+    height: 56px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #FFFFFF;
+
+
+    background-color: #DD0000; */
+}
+
+#para_2 {
+    display: none;
+}
+
+
+/* for small devices */
+
+@media only screen and (max-width:688px) {
+
+    /* #para_1 {
+        display: none;
+    }
+
+    #para_2 {
+        display: block;
+        text-align: center;
+    } */
+    header {
+        /* width: 400px; */
+        width: 100%;
+        background-color: aqua;
+        height: 600px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .main_header {
+        height: 580px;
+        flex-direction: column;
+    }
+
+    .header_detail {
+        width: 258px;
+        /* height: 178px; */
+        position: relative;
+        left: 0px;
+        top: -28px;
+
+        justify-content: center;
+
+        /* left: -246px;
+        top: -161px; */
+    }
+
+    .main_header img {
+
+        width: 233px;
+        height: 245px;
+
+        margin: 0px;
+        padding: 0px;
+
+        top: 57.5%;
+        left: 90px;
+        bottom: 0px;
+
+    }
+
+    .header_detail h1 {
+        font-weight: 700;
+        font-size: 22px;
+        color: white;
+        width: 228px;
+        height: 66px;
+        line-height: 20px;
+
+        text-align: center;
+    }
+
+    .header_detail p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+
+        text-align: center;
+
+        color: white;
+        width: 258px;
+        height: 48px;
+    }
+
+    .header_detail button {
+        font-weight: 400;
+        font-size: 20px;
+
+        width: 161px;
+        height: 40px;
+
+        position: relative;
+        left: 0px;
+        top: 50px;
+
+    }
+
+    .manu {
+        width: 210px;
+        height: 176px;
+        background-color: #FFFFFF;
+        position: relative;
+        top: 24px;
+    }
+
+    .manu div {
+        border: 0.5px solid #E8E8E8;
+        text-align: center;
+
+    }
+
+    main {
+        /* display: none; */
+        flex-direction: column;
+    }
+
+    .blogs {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        right: 0px;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        top: 44px;
+    }
+
+    .blog img {
+        width: 335px;
+        height: 187.9px;
+    }
+
+    .blog_detail button {
+        width: 107.37px;
+        height: 34.36px;
+
+        font-weight: 500;
+        font-size: 17.1795px;
+    }
+
+    .blog_detail p {
+        width: 292.05px;
+        height: 56px;
+
+        font-weight: 600;
+        font-size: 18.7675px;
+    }
+
+    .time_comment {
+        position: relative;
+        left: 0PX;
+        top: 20px;
+    }
+
+    .time p {
+        position: relative;
+        top: 34px;
+        left: 20px;
+    }
+
+    .comment p {
+        position: relative;
+        top: 34px;
+        left: 25px;
+    }
+
+    .blog {
+        width: 100%;
+        /* height: 187.9px; */
+    }
+
+    footer {
+        /* display: none; */
+        width: 100%;
+        height: 600px;
+        justify-content: space-evenly;
+    }
+
+    .goal {
+        width: 52px;
+        height: 33px;
+
+        font-weight: 600;
+        font-size: 22px;
+        /* position: relative;
+        top: 5px; */
+    }
+
+    /* hr {
+        position: relative;
+        top: 20px;
+    } */
+
+    .footer_elements {
+        font-weight: 400;
+        font-size: 14px;
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+
+
+
+
+
+
+}
