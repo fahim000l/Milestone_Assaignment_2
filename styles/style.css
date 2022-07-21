@@ -173,9 +173,15 @@ main {
 
     text-align: center;
 
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
     /* position: relative; */
     /* left: 30px; */
     /* top: 30px; */
+    /* position: relative;
+    top: 10px; */
 }
 
 .manu div h2 {
@@ -203,6 +209,8 @@ main {
     grid-template-columns: repeat(3, 1fr);
     /* row-gap: 2px;
     column-gap: 2px; */
+
+    row-gap: 20px;
 
     position: relative;
     right: -150px;
@@ -733,7 +741,8 @@ hr {
     }
 
     .manu {
-        width: 734px;
+        /* width: 734px; */
+        width: 100%;
         height: 176px;
         background-color: #FFFFFF;
         position: relative;
@@ -745,6 +754,8 @@ hr {
     .manu div {
         border: 0.5px solid #E8E8E8;
         text-align: center;
+        /* align-items: center; */
+        padding-left: 10px;
 
     }
 

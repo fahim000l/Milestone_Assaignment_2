@@ -215,7 +215,7 @@ main {
 .blog {
     width: 412px;
     height: 242px;
-    border: 2px solid wheat;
+    border: 2px solid gray;
     border-radius: 10px 10px 0px 0px;
 
     background-color: white;
